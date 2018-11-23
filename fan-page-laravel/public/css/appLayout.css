@@ -1,0 +1,79 @@
+img{
+    height:25pc;
+    
+}
+body{
+    background-color:rgba(175, 175, 175, 0.151);
+
+}
+
+.album {
+    -webkit-transition: width 2s;
+}
+.album :hover{
+    z-index: 1;
+    padding:5px;
+    box-shadow: 12px;
+
+}
+audio{
+    float: right;
+    padding: 0px;
+    margin:0px;
+    position: relative;
+    top:-5px;
+}
+.titleSong{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top:30px;
+}
+.list-group {
+    padding-top: 0px;
+    margin:0px;
+    
+}
+.icons{
+    float: right;   
+    margin-right: 10%;
+    padding: 0px;
+}
+i{
+    display: inherit;
+}
+button {
+    color:red;
+    padding: 2px;
+    
+
+}
+.modal-content{
+    position: relative;
+    top: -300px;
+    left:450px;
+    width: 520px;
+    height: 300px;
+}
+
+.homes{
+    width: 620px;
+    height: auto;
+    position: relative;
+    left:380px;
+    top: 0px;
+    margin:5px;
+}
+.postAudio{
+    position: relative;
+    top:15px;
+    width: 500px;
+}
+.imagenAlbum{
+    width: 80px;
+    height:80px;
+}
+.footer{
+    float: left;
+    margin-right:250px ;
+}
